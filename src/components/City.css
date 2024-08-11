@@ -1,0 +1,108 @@
+.city-container {
+    max-width: 600px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.city-header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.city-id,
+.city-date,
+.city-notes {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #c0c0c0;
+}
+
+.city-name {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #f9f9f9;
+}
+
+.city-emoji {
+    font-size: 1.5em;
+}
+
+.city-id span,
+.city-date span,
+.city-notes span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.city-container {
+    max-width: 600px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+
+.city-header {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.city-id,
+.city-date,
+.city-notes {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #c0c0c0;
+}
+
+.city-name {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #f9f9f9;
+}
+
+.city-emoji {
+    font-size: 1.5em;
+}
+
+.city-id span,
+.city-date span,
+.city-notes span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* City.css */
+
+.city-container a {
+    color: #3498db;
+    /* Change the color as needed */
+    text-decoration: none;
+    /* Remove underline from link */
+    font-weight: bold;
+    /* Make the text bold */
+}
+
+.city-container a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+    color: #2980b9;
+    /* Change color on hover */
+}
+
+.city-container a:focus {
+    outline: 2px solid #3498db;
+    /* Add outline for accessibility */
+}

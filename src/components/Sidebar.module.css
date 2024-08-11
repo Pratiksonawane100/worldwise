@@ -1,0 +1,75 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 580px;
+    /* Adjust width as needed */
+    background-color: #01020c;
+    /* Sidebar background color */
+    color: #fff;
+
+    /* Sidebar.module.css */
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 280px;
+        /* Adjust width as needed */
+        background-color: #333;
+        /* Sidebar background color */
+        color: #fff;
+        /* Text color */
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-y: hidden;
+        /* Disable vertical scrolling */
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logoImg {
+        width: 80%;
+        /* Adjust logo size */
+        max-width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+        display: block;
+        /* Ensure image is treated as a block element */
+        margin: 0 auto;
+        /* Center image horizontally */
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        color: rgba(255, 255, 255, 0.7);
+        /* Adjust footer text color and transparency */
+    }
+
+    /* Ensure image is treated as a block element */
+    margin: 0 auto;
+    /* Center image horizontally */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.7);
+    /* Adjust footer text color and transparency */
+}
+
+h1 {
+    margin: 20px;
+    font-family: cursive;
+}

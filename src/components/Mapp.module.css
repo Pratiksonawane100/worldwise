@@ -1,0 +1,82 @@
+/* Map.module.css */
+/* .map-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 280px);
+    height: 100%;
+
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+} */
+
+.mapContainer {
+    height: 100vh;
+    /* Full viewport height or adjust as needed */
+    width: 100%;
+    /* Full width of the parent container */
+}
+
+.mapContainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.positionButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.positionButton:hover {
+    background-color: #0056b3;
+}
+
+/* Mapp.module.css */
+.mapContainer {
+    position: relative;
+}
+
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mapContainer {
+    position: relative;
+}
+
+.usernameDisplay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+}

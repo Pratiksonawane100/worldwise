@@ -1,0 +1,56 @@
+/* Basic reset for styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* background-color: #333; */
+    /* Dark background for the nav bar */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* Distribute the space evenly */
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav :global(.active) {
+    color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+    /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ff6347;
+    /* Change color on hover */
+}
+
+nav :global(.active) {
+    color: red;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 0.5em 0;
+    }
+}

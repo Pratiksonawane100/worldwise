@@ -1,0 +1,21 @@
+/* Assuming you have a CSS file linked to your component or using CSS-in-JS */
+.country-item {
+    display: flex;
+    /* Flexbox for layout */
+    align-items: center;
+    /* Align items vertically */
+    background-color: #2e2e2e;
+    /* Light gray background */
+    padding: 10px;
+    /* Padding around content */
+    margin-bottom: 5px;
+    margin: 10px;
+    /* Bottom margin for spacing */
+}
+
+.country-flag {
+    font-size: 24px;
+    /* Adjust size of flag emoji */
+    margin-right: 10px;
+    /* Right margin for spacing between flag and text */
+}

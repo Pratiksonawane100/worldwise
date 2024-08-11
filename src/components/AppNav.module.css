@@ -1,0 +1,54 @@
+/* AppNav.module.css */
+.nav {
+    padding: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+    /* Adjust spacing between items */
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    text-decoration: none;
+    color: #ffffff;
+    /* Text color */
+    border: 1px solid #333;
+    /* Dark border color */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    /* Smooth transition */
+}
+
+.nav li a:hover,
+.nav li a.active {
+    background-color: linear-gradient(to right, #434343, #5ce1e6);
+    /* Darker border color for active state */
+    ;
+    /* Darker background color on hover/active */
+    border-color: linear-gradient(to right, #434343, #5ce1e6);
+    /* Darker border color for active state */
+    ;
+    /* Darker border color on hover/active */
+    color: #ffffff;
+    /* Lighter text color on hover/active */
+}
+
+.nav a:global(.active) {
+    background-color: #555;
+    /* Darker background color for active state */
+    background: linear-gradient(to right, #434343, #5ce1e6);
+    /* Darker border color for active state */
+    color: #ffffff;
+    /* Lighter text color for active state */
+}

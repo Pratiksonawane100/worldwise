@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "country": "France",
+      "cityName": "Paris",
+      "emoji": "fr",
+      "date": "2024-07-17",
+      "notes": "Capital of France",
+      "position": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "id": "907532"
+    },
+    {
+      "id": "dc72",
+      "cityName": "Mumbai",
+      "country": "India",
+      "emoji": "in",
+      "date": "2024-07-23T18:10:48.197Z",
+      "notes": "",
+      "position": {
+        "lat": "19.16486897237488",
+        "lng": "73.02594330466653"
+      }
+    },
+    {
+      "id": "0522",
+      "cityName": "Sittingbourne",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2024-07-27T11:55:54.931Z",
+      "notes": "",
+      "position": {
+        "lat": "51.4361658533227",
+        "lng": "0.7903342953189264"
+      }
+    }
+  ]
+}

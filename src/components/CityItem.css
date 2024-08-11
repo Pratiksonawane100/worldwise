@@ -1,0 +1,124 @@
+/* styles.css or your preferred CSS file */
+
+.city-item {
+    background-color: #2e2e2e;
+    /* Light gray background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+    max-width: 100%;
+}
+
+.city-item span {
+    font-size: 1.5rem;
+    /* Adjust emoji size */
+    margin-right: 10px;
+}
+
+.city-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Allows h3 to take up available space */
+}
+
+.city-item time {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.city-item button {
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #999;
+    padding: 0.2rem 0.5rem;
+}
+
+.city-item button:hover {
+    color: #666;
+}
+
+.city-item {
+    text-decoration: none;
+    /* Remove default underline */
+    color: white;
+    /* Set text color */
+}
+
+
+
+
+.city-item time {
+    font-style: italic;
+    /* Example: Make date italic */
+}
+
+.cityItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    /* Default border color */
+    border-radius: 5px;
+    background-color: #333;
+    /* Dark background for each item */
+    color: #f1f1f1;
+    /* Light text color */
+    text-decoration: none;
+    /* Remove default link underline */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.cityItem:hover {
+    background-color: #444;
+    /* Slightly lighter background on hover */
+}
+
+.cityItem .fi {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.cityItem h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.cityItem time {
+    font-size: 0.9em;
+    color: #ccc;
+    /* Light gray color for the date */
+}
+
+.cityItem button {
+    background: none;
+    border: none;
+    color: #f1f1f1;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.cityItem button:hover {
+    color: #ff6b6b;
+    /* Color change on hover for the button */
+}
+
+.city--active {
+    border-color: #4caf50;
+    /* Green border for the active city */
+    background-color: #282828;
+    /* Slightly darker background for active item */
+}
